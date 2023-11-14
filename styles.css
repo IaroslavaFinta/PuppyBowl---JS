@@ -1,0 +1,76 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: small;
+  font-style: normal;
+  color:brown
+}
+
+h1{
+  font-size: large;
+  font-style: normal;
+  color: blue;
+  text-align: center;
+  padding: 5px;
+}
+
+.backimage {
+  height:80vh;
+  width: auto;
+  background: url('https://www.doncooper.com/wp-content/uploads/2018/07/Why-You-Don%E2%80%99t-Want-a-Level-Playing-Field-e1533072712775.jpg');
+  background-size:cover;
+  position:relative;
+}
+
+li{
+  padding: 10px;
+  margin: 10px;
+  list-style-type: none;
+}
+
+#new-player-form{
+  color:black;
+  font-size: medium;
+  font-style: normal;
+  padding: 5px;
+  margin: 5px;
+}
+
+#labelId{
+  padding: 5px;
+  margin: 5px;
+  border: 5px;
+  display: list-item;
+  list-style-type: none;
+}
+
+img{
+  height: 100px;
+  width: auto;
+}
+
+#all-teams-container, #all-players-container{
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.player, .team{
+  /* flex: 1 1 300px; */
+  max-height: 200px;
+  margin: 15px;
+  padding: 15px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.hidden{
+  display: none;
+}
