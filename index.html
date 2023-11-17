@@ -23,23 +23,23 @@
   <div id="new-player-form">
     <form id="new-player">
       <label for="title">Player Name
-        <input id="title" type="text" name="title" />
+        <input id="title" type="text" name="title" required />
       </label>
       <label for="breed">Breed
-        <input id="breed" type="text" name="breed" />
+        <input id="breed" type="text" name="breed" required />
       </label>
       <label for="status">Status
-        <select id="status" name="status">
+        <select id="status" name="status" required>
           <option value="bench">Bench</option>
           <option value="field">Field</option>
         </select>
       </label>
       <label for="imageUrl">
         Image URL
-        <input id="imageUrl" type="text" name="imageUrl" placeholder="Image URL" />
+        <input id="imageUrl" type="text" name="imageUrl" required placeholder="Image URL" />
       </label>
       <label for="teamId">TeamID
-        <input id="teamId" type="number" name="teamId" />
+        <input id="teamId" type="number" name="teamId" required/>
       </label>
       <button id="addNew" type="submit" name="add-button">Add New Player</button>
     </form>
